@@ -16,6 +16,19 @@
         #container {
             text-align : center;
         }
+        #art_work1 {
+            margin: 100px;
+            -webkit-animation: art_work1 10s linear infinite;
+            animation: art_work1 10s linear infinite;
+        }
+        @-webkit-keyframes art_work1 {
+            0% { -webkit-transform: rotateX(0deg) rotate(0deg); }
+            100% { -webkit-transform: rotateX(0deg) rotate(360deg); }
+        }
+        @keyframes art_work1 {
+            0% { transform: rotateX(0deg) rotate(0deg); }
+            100% { transform: rotateX(0deg) rotate(360deg); }
+        }
         #sns_icon {
             text-align : center;
         }
@@ -29,7 +42,9 @@
       <div>
           <div id="container">
                 <h1>404 Not Found</h1>
+                <img id="art_work1" src="./images/dj_disc_image.jpg"width="350"height="350">
                 <a href="https://golang.org/"><img src="./images/gopher1.gif"width="250"height="350"></a>
+                <img id="art_work1" src="./images/dj_disc_image.jpg"width="350"height="350">
           </div>
           <div id="sns_icon">
                 <h2>You can find me↓</h2>
@@ -44,7 +59,7 @@
               <a href="https://www.instagram.com/yu1013sp/?hl=ja"><img src="./images/instagram_icon.png"width="50"height="50"></a>
               <a href="https://www.facebook.com/profile.php?id=100016927865627"><img src="./images/facebook_icon.jpg"width="50"height="50"></a>
               <p>My Favorite Songs.</p>
-              <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotify%3Aplaylist%3A63hgotmWCQBYqP0XrPGAvn" width="300"height="380" frameborder="0" allowtransparency="true"></iframe>
+              <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotify%3Aplaylist%3A63hgotmWCQBYqP0XrPGAvn" width="300"height="500" frameborder="0" allowtransparency="true"></iframe>
           </div>
       </div>
   </body>
