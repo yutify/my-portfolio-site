@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>yutify</title>
     <style>
         body {
-            background: #884898;
+            background: white;
+            box-sizing: border-box;
         }
         h2 {
             color: #ffff01
@@ -13,8 +15,18 @@
         p {
             color: aliceblue
         }
-        #container {
+        #container_disc1 {
+            border: medium ridge black;
+            margin: 50px;
+        }
+        #container_disc2 {
+            border: medium ridge black;
+            margin: 50px;
+        }
+        #container1 {
             text-align : center;
+            width: 300px;
+            margin-top: 30px;
         }
         #art_work1 {
             margin: 70px;
@@ -29,37 +41,119 @@
             0% { transform: rotateX(0deg) rotate(0deg); }
             100% { transform: rotateX(0deg) rotate(360deg); }
         }
-        #sns_icon {
-            text-align : center;
+        #introduction {
+            font-size: 30px;
+            font-family: Times New Roman;
         }
         #movie_1 {
             text-align : center;
+        }
+        #content_box1 {
+            background-color: blueviolet;
+            border: medium ridge black;
+            padding: 20px;
+            margin: 30px;
+            width: 300px;
+            height: 200px;
+            text-align: center;
+        }
+        #content_box2 {
+            background-color: blueviolet;
+            border: medium ridge black;
+            padding: 20px;
+            margin-top: 50px;
+            width: 300px;
+            height: 200px;
+            text-align: center;
+        }
+        #text_box {
+            padding: 10px;
+            border: medium ridge black;
+            text-align : center;
+        }
+        #music_box {
+            padding: 10px;
+            border: medium ridge black;
+            width: 300px;
+        }
+        #dj_box {
+            padding-top: 20px;
+            display: flex;
+        }
+        #content_wrapper {
+            width: 90vw;
+        }
+        @media screen and (max-width: 480px) {
+            body {
+                background: white;
+                width: 380px
+            }
+            #container_disc1 {
+                border: medium ridge black;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #container_disc2 {
+                display: none;
+            }
+            #content_box1 {
+                background-color: blueviolet;
+                border: medium ridge black;
+                padding: 10px;
+                margin: 0 auto;
+            }
+            #content_box2 {
+                background-color: blueviolet;
+                border: medium ridge black;
+                padding: 10px;
+                margin-top: 0 auto;
+            }
+            #content_wrapper {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                max-width: 300px; 
+            }
+            #content_wrapper {
+                margin-left: 50px;
+                margin-right: 50px;
+            }
         }
     </style>
     <link rel="icon" type="image/png" href="./images/gopher3.png" sizes="192x192">
   </head>  
   <body>
-      <div>
-          <div id="container">
-                <h1>Welcome To yutify3.com</h1>
-                <img id="art_work1" src="./images/dj_disc_image.jpg"width="250"height="250">
-                <img id="art_work1" src="./images/dj_disc_image.jpg"width="250"height="250">
+      <div id="content_wrapper">
+        <div id="text_box">
+            <span id="introduction">Guns and breed</span>
+        </div>
+        <div id="dj_box">
+            <div id="container_disc1">
+                <img id="art_work1" src="./images/dj_disc_image.jpg"width="180"height="180">
+            </div>
+            <div id="container_disc2">
+                <img id="art_work1" src="./images/dj_disc_image.jpg"width="180"height="180">
+            </div>
+        </div>
+          <div id="content_box1">
+            <h2>You can find me↓</h2>
+            <p>I'm a Software Engineer.</p>
+            <a href="https://twitter.com/yutify333"><img src="./images/twitter_icon.png"width="50"height="50"></a>
+            <a href="https://github.com/yutify"><img src="./images/github_icon.png"width="50"height="50"></a>
+            <a href="https://medium.com/@yutify"><img src="./images/medium_icon.jpg"width="50"height="50"></a>
           </div>
-          <div id="sns_icon">
-                <h2>You can find me↓</h2>
-                <p>I'm a Software Engineer.</p>
-                <a href="https://twitter.com/yutify333"><img src="./images/twitter_icon.png"width="50"height="50"></a>
-                <a href="https://github.com/yutify"><img src="./images/github_icon.png"width="50"height="50"></a>
-                <a href="https://medium.com/@yutify"><img src="./images/medium_icon.jpg"width="50"height="50"></a>
-          </div>
-          <div id="container">
+            <div id="content_box2">
               <h2>You can know me↓</h2>
               <p>My Private SNS.</p>
               <a href="https://www.instagram.com/yu1013sp/?hl=ja"><img src="./images/instagram_icon.png"width="50"height="50"></a>
               <a href="https://www.facebook.com/profile.php?id=100016927865627"><img src="./images/facebook_icon.jpg"width="50"height="50"></a>
-              <p>My Favorite Songs.</p>
-              <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotify%3Aplaylist%3A63hgotmWCQBYqP0XrPGAvn" width="300"height="500" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+          <div id="container1">
+            <p>My Favorite Songs.</p>
+              <div id="music_box">
+                <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotify%3Aplaylist%3A63hgotmWCQBYqP0XrPGAvn" width="250"height="600" frameborder="0" allowtransparency="true"></iframe>
+              </div>
           </div>
-      </div>
+        </div>
   </body>
-</html>
+</html
