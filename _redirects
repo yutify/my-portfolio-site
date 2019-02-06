@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://dazzling-colden-5a717c.netlify.com/* https://yutify3.com/:splat 301!
