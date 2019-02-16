@@ -52,7 +52,7 @@
             background-color: blueviolet;
             border: medium ridge black;
             padding: 20px;
-            margin: 30px;
+            margin-top: 30px;
             width: 300px;
             height: 200px;
             text-align: center;
@@ -61,10 +61,22 @@
             background-color: blueviolet;
             border: medium ridge black;
             padding: 20px;
-            margin-top: 50px;
+            margin-top: 30px;
             width: 300px;
             height: 200px;
             text-align: center;
+        }
+        #content_box3 {
+            background-color: white;
+            border: medium ridge black;
+            padding: 20px;
+            margin-top: 30px;
+            width: 300px;
+            height: 200px;
+            text-align: center;
+        }
+        #movie_name {
+            color: black;
         }
         #text_box {
             padding: 10px;
@@ -82,6 +94,9 @@
         }
         #content_wrapper {
             width: 90vw;
+        }
+        #h2_white_text {
+            color: black;
         }
         @media screen and (max-width: 480px) {
             body {
@@ -108,6 +123,12 @@
                 padding: 10px;
                 margin-top: 0 auto;
             }
+            #content_box3 {
+                background-color:white;
+                border: medium ridge black;
+                padding: 10px;
+                margin-top: 0 auto;
+            }
             #content_wrapper {
                 margin: 0;
                 padding: 0;
@@ -121,7 +142,7 @@
   <body>
       <div id="content_wrapper">
         <div id="text_box">
-            <span id="introduction">Guns and bleed</span>
+            <span id="introduction">α..</span>
         </div>
         <div id="dj_box">
             <div id="container_disc1">
@@ -133,20 +154,30 @@
         </div>
           <div id="content_box1">
             <h2>You can find me↓</h2>
-            <p>I'm a Software Engineer.</p>
+            <p>I'm a Software Engineer</p>
             <a href="https://twitter.com/yutify333"><img src="./images/twitter_icon.png"width="50"height="50"></a>
             <a href="https://github.com/yutify"><img src="./images/github_icon.png"width="50"height="50"></a>
             <a href="https://medium.com/@yutify"><img src="./images/medium_icon.jpg"width="50"height="50"></a>
           </div>
             <div id="content_box2">
               <h2>You can know me↓</h2>
-              <p>My Private SNS.</p>
+              <p>My Private SNS</p>
               <a href="https://www.instagram.com/yu1013sp/?hl=ja"><img src="./images/instagram_icon.png"width="50"height="50"></a>
               <a href="https://www.facebook.com/profile.php?id=100016927865627"><img src="./images/facebook_icon.jpg"width="50"height="50"></a>
             </div>
+            <div id="content_box3">
+                <h2 id="h2_white_text">My Favorite Movies</h2>
+                <img src="./images/20th_century_fox_image.jpeg"width="50"height="50">
+                <p>
+                    <a id="movie_name" href="https://www.youtube.com/watch?v=LVHU_YWV3e4" >The Great Gatsby</a>        
+                </p>
+                <p>
+                    <a id="movie_name" href="https://www.youtube.com/watch?v=6hB3S9bIaco">The Shawshank Redemption</a>
+                </p>
+            </div>
           <div id="container1">
-            <p>My Favorite Songs.</p>
               <div id="music_box">
+                <h2 id="h2_white_text">My Favorite Songs</h2>
                 <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotify%3Aplaylist%3A63hgotmWCQBYqP0XrPGAvn" width="250"height="600" frameborder="0" allowtransparency="true"></iframe>
               </div>
           </div>
