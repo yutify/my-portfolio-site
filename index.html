@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" >
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>yutify</title>
@@ -91,9 +92,11 @@
         #dj_box {
             padding-top: 20px;
             display: flex;
+            justify-content: center;
         }
         #content_wrapper {
             width: 90vw;
+            justify-content: center;
         }
         #h2_white_text {
             color: black;
@@ -138,49 +141,64 @@
         }
     </style>
     <link rel="icon" type="image/png" href="./images/gopher3.png" sizes="192x192">
-  </head>  
-  <body>
-      <div id="content_wrapper">
+</head>
+
+<body>
+    <div id="content_wrapper">
         <div id="text_box">
             <span id="introduction">α..</span>
         </div>
         <div id="dj_box">
             <div id="container_disc1">
-                <img id="art_work1" src="./images/dj_disc_image.jpg"width="180"height="180">
+                <img id="art_work1" onclick="playVideo();return false;" src="./images/dj_disc_image.jpg" width="180"
+                    height="180">
             </div>
             <div id="container_disc2">
-                <img id="art_work1" src="./images/dj_disc_image.jpg"width="180"height="180">
+                <img id="art_work1" src="./images/dj_disc_image.jpg" width="180" height="180">
             </div>
+            <iframe id="music_player" width="1" height="1" src="" frameborder="0"></iframe>
+            <div id="player"></div>
         </div>
-          <div id="content_box1">
+        <div id="content_box1">
             <h2>You can find me↓</h2>
             <p>I'm a Software Engineer</p>
-            <a href="https://twitter.com/yutify333"><img src="./images/twitter_icon.png"width="50"height="50"></a>
-            <a href="https://github.com/yutify"><img src="./images/github_icon.png"width="50"height="50"></a>
-            <a href="https://medium.com/@yutify"><img src="./images/medium_icon.jpg"width="50"height="50"></a>
-          </div>
-            <div id="content_box2">
-              <h2>You can know me↓</h2>
-              <p>My Private SNS</p>
-              <a href="https://www.instagram.com/yu1013sp/?hl=ja"><img src="./images/instagram_icon.png"width="50"height="50"></a>
-              <a href="https://www.facebook.com/profile.php?id=100016927865627"><img src="./images/facebook_icon.jpg"width="50"height="50"></a>
-            </div>
-            <div id="content_box3">
-                <h2 id="h2_white_text">My Favorite Movies</h2>
-                <img src="./images/20th_century_fox_image.jpeg"width="50"height="50">
-                <p>
-                    <a id="movie_name" href="https://www.youtube.com/watch?v=LVHU_YWV3e4" >The Great Gatsby</a>        
-                </p>
-                <p>
-                    <a id="movie_name" href="https://www.youtube.com/watch?v=6hB3S9bIaco">The Shawshank Redemption</a>
-                </p>
-            </div>
-          <div id="container1">
-              <div id="music_box">
-                <h2 id="h2_white_text">My Favorite Songs</h2>
-                <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotify%3Aplaylist%3A63hgotmWCQBYqP0XrPGAvn" width="250"height="600" frameborder="0" allowtransparency="true"></iframe>
-              </div>
-          </div>
+            <a href="https://twitter.com/yutify333"><img src="./images/twitter_icon.png" width="50" height="50"></a>
+            <a href="https://github.com/yutify"><img src="./images/github_icon.png" width="50" height="50"></a>
+            <a href="https://medium.com/@yutify"><img src="./images/medium_icon.jpg" width="50" height="50"></a>
         </div>
-  </body>
+        <div id="content_box2">
+            <h2>You can know me↓</h2>
+            <p>My Private SNS</p>
+            <a href="https://www.instagram.com/yu1013sp/?hl=ja"><img src="./images/instagram_icon.png" width="50"
+                    height="50"></a>
+            <a href="https://www.facebook.com/profile.php?id=100016927865627"><img src="./images/facebook_icon.jpg"
+                    width="50" height="50"></a>
+        </div>
+        <div id="content_box3">
+            <h2 id="h2_white_text">My Favorite Movies</h2>
+            <img src="./images/20th_century_fox_image.jpeg" width="50" height="50">
+            <p>
+                <a id="movie_name" href="https://www.youtube.com/watch?v=LVHU_YWV3e4">The Great Gatsby</a>
+            </p>
+            <p>
+                <a id="movie_name" href="https://www.youtube.com/watch?v=6hB3S9bIaco">The Shawshank Redemption</a>
+            </p>
+        </div>
+        <div id="container1">
+            <div id="music_box">
+                <h2 id="h2_white_text">My Favorite Songs</h2>
+                <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotify%3Aplaylist%3A63hgotmWCQBYqP0XrPGAvn"
+                    width="250" height="600" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        function playVideo() {
+            var music = document.getElementById("music_player")
+            music.src = "https://www.youtube.com/embed/qOJs1JCymII?rel=0&start=128&end=155&autoplay=1"
+        }
+    </script>
+</body>
+
 </html
