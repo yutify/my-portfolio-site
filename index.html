@@ -34,6 +34,10 @@
             -webkit-animation: art_work1 10s linear infinite;
             animation: art_work1 10s linear infinite;
         }
+        #text4 {
+            font-weight: bold;
+            font-size: 20px;
+        }
         @-webkit-keyframes art_work1 {
             0% { -webkit-transform: rotateX(0deg) rotate(0deg); }
             100% { -webkit-transform: rotateX(0deg) rotate(360deg); }
@@ -78,6 +82,7 @@
         }
         #movie_name {
             color: black;
+            text-decoration: none; 
         }
         #text_box {
             padding: 10px;
@@ -100,9 +105,19 @@
         #h2_white_text {
             color: black;
         }
-         #h3_white_text {
+         #black_text {
             color: black;
             font-family: Times New Roman;
+            font-size: 20px;
+        }
+        #a_text {
+            text-decoration: none; 
+            color: black;
+            font-size: 20px;
+            font-family: Times New Roman;
+        }
+        #a_text:hover {
+            color: red; 
         }
         @media screen and (max-width: 480px) {
             body {
@@ -205,8 +220,11 @@
             </div>
         </div>
         <div id="content_box3">
-            <h2 id="h2_white_text">MyArtWorks</h2>
-            <h2 id="h3_white_text">FallingCherryBlossoms</h2>
+            <h2 id="h2_white_text">My Works</h2>
+            <div id="text4">Web Site</div>
+            <a id="a_text" href="https://relaxed-liskov-f1a530.netlify.com/">Dart Journey</a>
+            <div id="text4">Web Animation</div>
+            <div id="black_text">FallingCherryBlossoms↓</div>
         </div>
         <div id="content_box3">
             <canvas id="cvs" width="300px" height="200px" style="background-color:#000;"></canvas>
