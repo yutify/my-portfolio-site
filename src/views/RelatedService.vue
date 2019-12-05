@@ -1,5 +1,6 @@
 <template>
   <div class="related_service">
+      <Header></Header>
       <h1>開発に関わったサービス</h1>
       <div>
           <a href="https://pre.1tap.chat/">
@@ -23,6 +24,19 @@
       </div>
   </div>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+import Header from '@/components/Header.vue';
+
+@Component({
+    components: {
+        Header
+    }
+})
+
+export default class Service extends Vue {}
+</script>
 
 <style scoped>
 a {

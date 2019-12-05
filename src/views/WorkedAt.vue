@@ -1,5 +1,6 @@
 <template>
   <div class="worked_at">
+    <Header></Header>
     <h1>職歴</h1>
     <div>
         <h2>2018:05~2019:04</h2>    
@@ -21,7 +22,7 @@
             <li>WordPress</li>
         </div>
         <h2>2019:01~2019:03</h2>
-        <p>ゼロからわかるDeepLearning(oreilly社)を教材にして初心者向けに機械学習の講師をした。</p>
+        <p>ゼロからわかるDeepLearning(O'reilly社)を教材にして初心者向けに機械学習の講師をした。</p>
         <h3>身に付けた技術</h3>
         <div>
             <li>Python3</li>
@@ -69,6 +70,20 @@
     </div>
   </div>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+import Header from '@/components/Header.vue';
+
+@Component({
+    components: {
+        Header
+    }
+})
+
+export default class Work extends Vue {}
+</script>
+
 <style scoped>
 a {
     text-decoration: none;

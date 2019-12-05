@@ -1,19 +1,6 @@
 <template>
   <div class="hello">
-    <div class="loader">Loading...</div>
-    <header class="header-block">
-      <div class="header-boxes">
-        <div class="header-box1"></div>
-        <div class="header-box1">
-          <a href="/">
-            <img src="../../public/gopher-image.png" width="70px" height="50px">
-          </a>
-        </div>
-        <div class="header-box2">
-          <router-link to="/about" class="cv">About/CV</router-link>
-        </div>
-      </div>
-    </header>
+    <Header></Header>
     <div class>
       <router-link class="text1" to="/about">
         <!-- <img src="../../public/gopher-st-image.png" width="50px" height="50px"/> -->
@@ -77,11 +64,15 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import Header from '@/components/Header.vue'
 
-@Component
-export default class HelloWorld extends Vue {
-  @Prop() private msg!: string;
-}
+@Component({
+    components: {
+        Header
+    }
+})
+export default class HelloWorld extends Vue {}
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -168,55 +159,5 @@ a {
   animation: load1 1s infinite ease-in-out;
   width: 1em;
   height: 4em;
-}
-.loader {
-  color: dodgerblue;
-  text-indent: -9999em;
-  margin: 88px auto;
-  position: relative;
-  font-size: 11px;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-animation-delay: -0.08s;
-  animation-delay: -0.08s;
-}
-.loader:before,
-.loader:after {
-  position: absolute;
-  top: 0;
-  content: '';
-}
-.loader:before {
-  left: -1.5em;
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s;
-}
-.loader:after {
-  left: 1.5em;
-}
-@-webkit-keyframes load1 {
-  0%,
-  80%,
-  100% {
-    box-shadow: 0 0;
-    height: 4em;
-  }
-  40% {
-    box-shadow: 0 -2em;
-    height: 5em;
-  }
-}
-@keyframes load1 {
-  0%,
-  80%,
-  100% {
-    box-shadow: 0 0;
-    height: 4em;
-  }
-  40% {
-    box-shadow: 0 -2em;
-    height: 5em;
-  }
 }
 </style>

@@ -1,13 +1,11 @@
 <template>
   <div class="about">
+    <Header></Header>
     <h1>About Me</h1>
-    <h2>加藤 優</h2>
-    <h3>
-      <b>Yu Kato</b>
-    </h3>
+    <h2>加藤 優/Yu Kato</h2>
     <div class="boxes">
       <div style="text-align:left">
-        <p>千葉大学の学生です。専攻はLiberalArtです。</p>
+        <p>千葉大学の学生です。専攻は国際教養学です。</p>
         <p>学部で幅広い分野のトピックを学びつつ、CSと統計と歴史学を独学しています。</p>
         <p>サーバサイド、インフラ、フロント、データ分析の仕事に取り組んできました。</p>
         <p>得意なのはサーバサイドです。</p>
@@ -33,6 +31,19 @@
     </div>
   </div>
 </template>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+import Header from '@/components/Header.vue';
+
+@Component({
+    components: {
+        Header
+    }
+})
+
+export default class About extends Vue {}
+</script>
 
 <style scoped>
 @media screen and (max-width:480px){
