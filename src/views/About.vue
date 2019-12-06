@@ -46,11 +46,6 @@ export default class About extends Vue {}
 </script>
 
 <style scoped>
-@media screen and (max-width:480px){
-  .image {
-    width: 100%;
-    }
-}
 .boxes {
   display: flex;
 }
@@ -61,6 +56,16 @@ p {
 img {
   width: 500px;
   height: 500px;
+}
+@media screen and (max-width:480px){
+  img {
+    width: 0px;
+    height: 0px;
+    }
+  p {
+    font-size: 10px;
+    margin: 10px;
+  }
 }
 </style>
 
