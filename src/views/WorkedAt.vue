@@ -31,12 +31,11 @@
             <li>scikit-learn</li>
             <li>Keras</li>
         </div>
-        <h2>2019:05~now</h2>
+        <h2>2019:05~2019:12</h2>
         <a href="https://sc0ville.com">Scoville</a>
         <p>外国人8割のチームにサーバサイド&機械学習エンジニアとしてジョイン。</p>
         <p>音声認識を用いたレストランの自動予約システムのAPIを全て実装した。</p>
         <p>また、Pythonを使用して就活サービスen-courageのデータ分析を行った。</p>
-        <p>現在は、機械学習を用いた新規事業の開発責任者としてプロジェクトを進めている。</p>
         <h3>身に付けた技術</h3>
         <div>
             <li>English Speaking Skill</li>
