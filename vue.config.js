@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: '/my-portfolio-site/',
+  publicPath: './',
   outputDir: 'docs'
 }
