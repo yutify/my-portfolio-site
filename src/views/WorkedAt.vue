@@ -66,6 +66,18 @@
         <li>Vue</li>
         <li>GraphQL</li>
         <li>Clean Architecture</li>
+        <h2>2019:2~now</h2>
+        <p>フリーランスエンジニアとして受託開発を行う。</p>
+        <p>2ヶ月でRuby on RailsとSwiftで４案件の開発を行った。</p>
+        <p>
+            受託と並行して家庭教師サービス
+            <a href="https://amazing-bohr-e9cf8d.netlify.com/">Tech Tutor</a>を運営している。
+        </p>
+        <p>また、プログラミング初心者のメンターをしており、初月で教えた生徒は10人を超える。</p>
+        <h3>身に付けた技術</h3>
+        <li>Ruby on Rails</li>
+        <li>Swift5</li>
+        <li>Teaching Skill</li>
     </div>
   </div>
 </template>
