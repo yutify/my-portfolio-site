@@ -3,7 +3,7 @@
     <Header></Header>
     <h1>職歴</h1>
     <div>
-        <h2>2018:05~2019:04</h2>    
+        <h2>2018:05~2019:04</h2>
         <a href="https://arii.jp">Arii-inc</a>
         <p>3つの新規サービスの立ち上げを経験。</p>
         <p>サーバサイド、フロント、インフラまで、エンジニアの基礎を学んだ。</p>
@@ -66,7 +66,7 @@
         <li>Vue</li>
         <li>GraphQL</li>
         <li>Clean Architecture</li>
-        <h2>2019:2~now</h2>
+        <h2>2019:2~4</h2>
         <p>フリーランスエンジニアとして受託開発を行う。</p>
         <p>2ヶ月でRuby on RailsとSwiftで４案件の開発を行った。</p>
         <p>
@@ -74,10 +74,8 @@
             <a href="https://amazing-bohr-e9cf8d.netlify.com/">Tech Tutor</a>を運営している。
         </p>
         <p>また、プログラミング初心者のメンターをしており、初月で教えた生徒は10人を超える。</p>
-        <h3>身に付けた技術</h3>
-        <li>Ruby on Rails</li>
-        <li>Swift5</li>
-        <li>Teaching Skill</li>
+        <h2>2019:4~now</h2>
+        <p>メンタルヘルスのプラットフォームを作っています</p>
     </div>
   </div>
 </template>
