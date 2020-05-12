@@ -54,17 +54,17 @@
       </a>
     </div>
     <div>
-     
+
     </div>
     <div>
-      
+
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import Header from '@/components/Header.vue'
+import Header from '@/components/Header.vue';
 
 @Component({
     components: {
