@@ -6,7 +6,8 @@
     <div class="boxes">
       <div style="text-align:left">
         <p>千葉大学の学生です。専攻は国際教養学です。</p>
-        <p>学部で幅広い分野のトピックを学びつつ、CSと統計と歴史学を独学しています。</p>
+        <p>学部でCSや統計などの幅広い分野のトピックを学びつつ、ポジティブ心理学を研究しています。</p>
+        <p>修士まで行く予定です。</p>
         <p>サーバサイド、インフラ、フロント、データ分析の仕事に取り組んできました。</p>
         <p>得意なのはサーバサイドです。</p>
         <p>Go言語でフルスクラッチでサーバサイドの開発をしたことがあります。</p>
@@ -19,7 +20,8 @@
       </div>
       <div style="text-align:left">
         <p>I'm a student of Chiba University,mejoring Liberal Art.</p>
-        <p>I study variety of fields especialy Computer Science, Statistics and Historical Science are my favorite ones</p>
+        <p>I study variety of fields especialy computer science, statistics. I am reseaching positive psychology.</p>
+        <p>I am going to graduate school.</p>
         <p>I worked at serverside,infra and front sometimes data analysis.</p>
         <p>I have strong knowledge about serverside.</p>
         <p>I used to develop api server from scratch with golang.</p>
