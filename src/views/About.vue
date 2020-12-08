@@ -19,7 +19,7 @@
         <img src="../../public/yukato.jpg"/>
       </div>
       <div style="text-align:left">
-        <p>I'm a student of Chiba University,mejoring Liberal Art.</p>
+        <p>I'm a student of Chiba University,majoring Liberal Art.</p>
         <p>I study variety of fields especialy computer science, statistics. I am reseaching machine learning.</p>
         <p>I am going to graduate school.</p>
         <p>I worked at serverside,infra and front sometimes data analysis.</p>

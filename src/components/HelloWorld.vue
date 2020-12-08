@@ -16,16 +16,16 @@
         <!-- <img src="../../public/app-image.png" width="50px" height="50px"/> -->
         Service
         </router-link>
-        <a class="text2" href="https://github.com/yukato7">
-        <!-- <img src="../../public/github-image.png" width="50px" height="50px"/> -->
-        Github
+        <a class="text2" href="https://www.linkedin.com/in/yu-kato-85a63a187/">
+        <!-- <img src="../../public/dart-image.png" width="50px" height="50px"/> -->
+        LinkedIn
         </a>
     </div>
     <div>
-      <a class="text3" href="https://dart-journey.tk/">
-      <!-- <img src="../../public/dart-image.png" width="50px" height="50px"/> -->
-      Dart Journey
-      </a>
+      <a class="text3" href="https://github.com/yukato7">
+        <!-- <img src="../../public/github-image.png" width="50px" height="50px"/> -->
+        Github
+        </a>
       <a class="text4" href="https://new-gengo.com">
       <!-- <img src="../../public/gengo-image.svg" width="50px" height="50px"/> -->
       Gengo
@@ -36,17 +36,9 @@
       <!-- <img src="../../public/twitter-image.png" width="50px" height="50px"/> -->
       Twitter
       </a>
-      <a class="text4" href="https://medium.com/@yutify">
+      <a class="text4" href="https://zenn.dev/yukato">
       <!-- <img src="../../public/medium-image.png" width="50px" height="50px"/> -->
-      Medium
-      </a>
-      <a class="text5" href="https://note.com/yu1013sp">
-      <!-- <img src="../../public/note-image.png" width="50px" height="50px"/> -->
-      Note
-      </a>
-      <a class="text6" href="https://qiita.com/yu19991013">
-      <!-- <img src="../../public/qiita-image.jpeg" width="50px" height="50px"/> -->
-      Qiita
+      Zenn
       </a>
     </div>
     <div>
