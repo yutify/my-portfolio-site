@@ -5,8 +5,8 @@
     <h2>加藤 優/Yu Kato</h2>
     <div class="boxes">
       <div style="text-align:left">
-        <p>千葉大学の3年生です。専攻は国際教養学です。</p>
-        <p>学部でCSや統計などの幅広い分野のトピックを学びつつ、「機械学習を使った精神疾患の検知」について研究しています。</p>
+        <p>千葉大学の4年生です。専攻は国際教養学です。</p>
+        <p>学部でCSや統計、プロダクトデザインなどの幅広い分野のトピックを学びつつ、「マテリアルと人の感性の関係性」について研究しています。</p>
         <p>修士まで行く予定です。</p>
         <p>サーバサイド、インフラ、フロント、データ分析の仕事に取り組んできました。</p>
         <p>得意なのはサーバサイドです。</p>
@@ -19,8 +19,8 @@
         <img src="../../public/yukato.jpg"/>
       </div>
       <div style="text-align:left">
-        <p>I'm a third year student of Chiba University. My major is Liberal Art.</p>
-        <p>I study variety of fields especialy computer science, statistics. I am reseaching machine learning.</p>
+        <p>I'm a fourth year student of Chiba University. My major is Liberal Art.</p>
+        <p>I study variety of fields especialy computer science, statistics and product design. I am reseaching Kansei engineering.</p>
         <p>I am going to graduate school.</p>
         <p>I worked at serverside,infra and front sometimes data analysis.</p>
         <p>I have strong knowledge about serverside.</p>

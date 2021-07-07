@@ -71,7 +71,7 @@
         <p>2ヶ月でRuby on RailsとSwiftで４案件の開発を行った。</p>
         <p>
             受託と並行して家庭教師サービス
-            <a href="https://amazing-bohr-e9cf8d.netlify.com/">Tech Tutor</a>を運営している。
+            <strong>Tech Tutor</strong>を運営した。
         </p>
         <p>また、プログラミング初心者のメンターをしており、初月で教えた生徒は10人を超える。</p>
         <h2>2020:4~2020:6</h2>
@@ -88,6 +88,12 @@
         <li>Golang</li>
         <li>PHP</li>
         <li>ECS</li>
+        <h2>2021:4~</h2>
+        <p>工学部の<a href="http://dippix.tp.chiba-u.jp/">堀内研</a>で「物性と人の評価の関係性」についての研究を行う</p>
+        <p>自分でモデリングした実験用のサンプルを3Dプリンターで出力したりしている。</p>
+        <li>Blender</li>
+        <li>Cinema4D</li>
+        <li>Sketch</li>
     </div>
   </div>
 </template>
